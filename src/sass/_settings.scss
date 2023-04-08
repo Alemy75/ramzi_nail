@@ -1,17 +1,47 @@
 @import 'variables';
+
 body {
 	background-color: $bgcol;
 	font-family: 'Exo 2', sans-serif;
 	font-size: 14px;
 	color: white;
-	font-weight: 400;
+	font-weight: 300;
 }
 
-a, button {
+h1,
+p,
+a,
+button {
 	all: unset;
 }
 
 .container {
+	position: relative;
 	max-width: 100%;
-	margin: 0 2em;
+	margin: 0 4em;
+}
+
+.button {
+	padding: 20px 3em;
+	border: 1px solid white;
+	font-weight: 200;
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	-ms-border-radius: 50px;
+	-o-border-radius: 50px;
+
+	&:hover {
+		cursor: pointer;
+		color: $linkhover;
+		background-color: white;
+		-webkit-box-shadow: 0px 0px 45px 0px rgba(78, 85, 62, 0.4);
+		-moz-box-shadow: 0px 0px 45px 0px rgba(78, 85, 62, 0.4);
+		box-shadow: 0px 0px 45px 0px rgba(78, 85, 62, 0.4);
+	}
+	transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
 }

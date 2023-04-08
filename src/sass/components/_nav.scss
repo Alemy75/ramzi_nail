@@ -1,0 +1,85 @@
+@import '../variables';
+
+.nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100px;
+	background-color: $nav;
+	z-index: 100;
+	-webkit-box-shadow: 0px 0px 45px 0px rgba(34, 34, 34, 0.19);
+	-moz-box-shadow: 0px 0px 45px 0px rgba(34, 34, 34, 0.19);
+	box-shadow: 0px 0px 45px 0px rgba(34, 34, 34, 0.19);
+
+	&__links {
+		display: flex;
+		justify-content: space-between;
+		list-style: none;
+
+		& li {
+			margin: 0 2em;
+			display: inline-flex;
+
+			&:hover {
+				cursor: pointer;
+				color: $linkhover;
+			}
+		}
+
+		transition: all 0.2s ease;
+		-webkit-transition: all 0.2s ease;
+		-moz-transition: all 0.2s ease;
+		-ms-transition: all 0.2s ease;
+		-o-transition: all 0.2s ease;
+	}
+
+	&__menu {
+		margin-left: 4em;
+		width: 40px;
+		height: 30px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+
+		& span {
+			position: relative;
+			display: block;
+			width: 100%;
+			height: 2px;
+			background-color: #fff;
+
+			&::after {
+				transition: all 0.3s ease;
+				-webkit-transition: all 0.5s ease;
+				-moz-transition: all 0.5s ease;
+				-ms-transition: all 0.5s ease;
+				-o-transition: all 0.5s ease;
+				content: '';
+				display: block;
+				position: absolute;
+				width: 0%;
+				height: 100%;
+				background-color: $linkhover;
+			}
+		}
+
+		&:hover {
+			cursor: pointer;
+
+			& span {
+				&::after {
+					width: 100%;
+				}
+			}
+		}
+	}
+
+	&__call {
+		margin-right: 4em;
+
+	}
+}
