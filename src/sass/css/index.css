@@ -427,7 +427,7 @@ button {
 .header {
   height: 100vh;
   background: url("../../assets/img/back.jpg") no-repeat center center;
-  background-size: 100%;
+  background-size: cover;
 }
 .header__wrap {
   display: flex;
