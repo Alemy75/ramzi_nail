@@ -1,0 +1,17 @@
+@import 'variables';
+body {
+	background-color: $bgcol;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 14px;
+	color: white;
+	font-weight: 400;
+}
+
+a, button {
+	all: unset;
+}
+
+.container {
+	max-width: 100%;
+	margin: 0 2em;
+}
