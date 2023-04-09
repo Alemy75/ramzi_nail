@@ -9,7 +9,8 @@
 
 	&__promo {
 		margin-top: 35vh;
-		width: 50%;
+		width: 100%;
+		text-align: center;
 
 		& h1 {
 			font-weight: 600;
@@ -24,10 +25,8 @@
 			font-size: 3em;
 			font-weight: 100;
 			font-style: italic;
+			margin-bottom: 2em;
 
 		}
-	}
-	&__button {
-		margin-top: 2rem;
 	}
 }
