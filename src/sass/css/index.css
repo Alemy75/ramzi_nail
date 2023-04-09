@@ -506,6 +506,14 @@ button {
   background-color: rgb(255, 251, 246);
   color: #1a1a1a;
 }
+.offers__head {
+  width: 100%;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+  font-size: 2em;
+  font-weight: 200;
+}
 .offers__wrap {
   width: 100%;
   display: flex;

@@ -3,7 +3,14 @@
 .offers {
 	background-color: $offersbg;
 	color: $dark;
-
+	&__head {
+		width: 100%;
+		text-align: center;
+		padding-top: 2rem;
+		padding-bottom: 0.5rem;
+		font-size: 2em;
+		font-weight: 200;
+	}
 	&__wrap {
 		width: 100%;
 		display: flex;
