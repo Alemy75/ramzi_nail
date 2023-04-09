@@ -1,0 +1,45 @@
+@import '../variables';
+
+.examples {
+	text-align: center;
+	padding-bottom: 3rem;
+	&__title {
+		display: block;
+		font-size: 2rem;
+		color: $dark;
+		font-weight: 200;
+		width: 100%;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+	}
+
+	&__wrap {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		grid-column-gap: 2rem;
+		grid-row-gap: 2rem;
+		@media (max-width: 1038px) {
+			grid-template-columns: repeat(2, 1fr);
+			grid-column-gap: 1rem;
+			grid-row-gap: 1rem;
+		}
+		@media (max-width: 500px) {
+			grid-template-columns: repeat(2, 1fr);
+			grid-column-gap: 0.5rem;
+			grid-row-gap: 0.5rem;
+		}
+
+		& img {
+			width: 100%;
+			border-radius: 10px 0 10px 0;
+			-webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+			-moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+			box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+			-webkit-border-radius: 10px 0 10px 0;
+			-moz-border-radius: 10px 0 10px 0;
+			-ms-border-radius: 10px 0 10px 0;
+			-o-border-radius: 10px 0 10px 0;
+}
+	}
+}

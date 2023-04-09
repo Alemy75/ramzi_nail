@@ -1,0 +1,30 @@
+.reviews {
+	background: white;
+	color: black;
+	&__wrap {
+		width: 800px;
+		margin: 0 auto;
+		padding-bottom: 3rem;
+		max-width: 100%;
+		position: relative;
+	}
+	&__title {
+		width: 100%;
+		text-align: center;
+		display: block;
+		font-size: 2rem;
+		font-weight: 200;
+		padding-top: 2rem;
+		margin-bottom: 1rem;
+	}
+	&__title2 {
+		width: 100%;
+		text-align: center;
+		display: block;
+		font-size: 1rem;
+		color: #ccc;
+		font-weight: 200;
+		font-style: italic;
+		margin-bottom: 1rem;
+	}
+}
