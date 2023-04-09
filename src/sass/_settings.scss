@@ -31,8 +31,9 @@ button {
 }
 
 .button {
+	display: block;
 	padding: 20px 3em;
-	min-width: 150px;
+	max-width: 150px;
 	text-align: center;
 	border: 1px solid white;
 	font-weight: 200;
