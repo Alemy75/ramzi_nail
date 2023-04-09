@@ -28,6 +28,9 @@
 		height: 100%;
 		text-align: center;
 		outline: 2px dashed $offersbg;
+		@media (max-width:800px) {
+			width: 100%;
+		}
 		& h1 {
 			font-size: 2em;
 			font-weight: 100;

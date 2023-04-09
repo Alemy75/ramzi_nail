@@ -699,6 +699,11 @@ button {
   text-align: center;
   outline: 2px dashed rgb(255, 251, 246);
 }
+@media (max-width: 800px) {
+  .greet__left {
+    width: 100%;
+  }
+}
 .greet__left h1 {
   font-size: 2em;
   font-weight: 100;

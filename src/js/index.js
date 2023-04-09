@@ -15,6 +15,7 @@ closePopupButton.addEventListener('click', () => {
 	popup.classList.remove('popup-nav_active')
 })
 
+// Smooth links
 const smoothLinks = document.querySelectorAll('a[href^="#"]');
 for (let smoothLink of smoothLinks) {
     smoothLink.addEventListener('click', function (e) {
@@ -25,5 +26,6 @@ for (let smoothLink of smoothLinks) {
             behavior: 'smooth',
             block: 'start'
         });
+		popup.classList.remove('popup-nav_active')
     });
 };
