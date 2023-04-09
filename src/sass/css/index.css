@@ -791,6 +791,18 @@ body {
   cursor: pointer;
   width: 40px;
   height: 40px;
+  transition: all 0.1s ease;
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -ms-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+}
+.arrow:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
 }
 
 .items {
@@ -1060,12 +1072,22 @@ body {
 }
 .examples__title {
   display: block;
-  font-size: 2rem;
+  font-size: 3rem;
   color: #333333;
   font-weight: 200;
   width: 100%;
   margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+}
+.examples__title2 {
+  width: 100%;
+  text-align: center;
+  display: block;
+  font-size: 1rem;
+  color: #5c5c5c;
+  font-weight: 200;
+  font-style: italic;
+  margin-bottom: 1rem;
 }
 .examples__wrap {
   display: grid;
@@ -1102,7 +1124,7 @@ body {
 
 .reviews {
   background: white;
-  color: black;
+  color: #333333;
 }
 .reviews__wrap {
   width: 800px;
@@ -1115,7 +1137,7 @@ body {
   width: 100%;
   text-align: center;
   display: block;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 200;
   padding-top: 2rem;
   margin-bottom: 1rem;
