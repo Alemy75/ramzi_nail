@@ -122,10 +122,7 @@
 				right: 0;
 			}	
 			@media(max-width: 800px) {
-				top: 10rem;
-			}
-			@media(max-width: 600px) {
-				top: 2rem;
+				display: none;
 			}
 		}
 		
@@ -199,4 +196,16 @@
 			}
 		}
 	}
+}
+
+.element-animation {
+	/* Скроем элемент в начальном состоянии */
+	opacity: 0;
+	transform: translateY(100%);
+}
+
+.element-animation.element-show {
+	opacity: 1;
+	transition: all 1s;
+	transform: translateY(0%);
 }
