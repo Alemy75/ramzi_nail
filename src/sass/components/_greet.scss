@@ -2,20 +2,9 @@
 
 .greet {
 	position: relative;
-	background-color: $greetbg;
-	background: url('../../assets/img/pat.webp');
 	&__container {
 		height: 100%;
 		margin: auto;
-	}
-	&__dark {
-		position: absolute;
-		top: 0;
-		right: 0;
-		width: 100%;
-		height: 100%;
-		background: $greetbg;
-		opacity: 0.7;
 	}
 	&__wrap {
 		width: 100%;
@@ -25,15 +14,15 @@
 	}
 
 	&__left {
-		background-color: #40312b;
+
 		z-index: 80;
 		display: flex;
 		flex-direction: column;
 		width: 100%;
 		height: 100%;
 		text-align: center;
-		border-right: 2px dashed $offersbg;
-		border-left: 2px dashed $offersbg;
+		// border-right: 2px dashed $offersbg;
+		// border-left: 2px dashed $offersbg;
 		margin: 0;
 		
 		@media (max-width:800px) {
@@ -43,6 +32,9 @@
 			font-size: 3em;
 			font-weight: 100;
 			margin-top: 2rem;
+			@media (max-width:800px) {
+				font-size: 2rem;	
+			}
 		}
 		& p{
 			margin-top: 1em;
