@@ -1157,6 +1157,18 @@ body {
   -o-transform: rotate(1deg);
   z-index: 30;
   margin-top: 20px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.rotate_left:hover {
+  transform: rotate(2deg) scale(1.1);
+  -webkit-transform: rotate(2deg) scale(1.1);
+  -moz-transform: rotate(2deg) scale(1.1);
+  -ms-transform: rotate(2deg) scale(1.1);
+  -o-transform: rotate(2deg) scale(1.1);
 }
 
 .rotate_right {
@@ -1166,6 +1178,18 @@ body {
   -ms-transform: rotate(-1deg);
   -o-transform: rotate(-1deg);
   z-index: 31;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.rotate_right:hover {
+  transform: rotate(-2deg) scale(0.9);
+  -webkit-transform: rotate(-2deg) scale(0.9);
+  -moz-transform: rotate(-2deg) scale(0.9);
+  -ms-transform: rotate(-2deg) scale(0.9);
+  -o-transform: rotate(-2deg) scale(0.9);
 }
 
 .reviews {
