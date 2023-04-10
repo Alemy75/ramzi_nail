@@ -12,10 +12,12 @@
 		font-size: 3em;
 		font-weight: 200;
 	}
-	& {
+	&__text {
+		display: block;
 		text-align: center;
-		color: grey;
 		font-style: italic;
+		color: grey;
+		margin-bottom: 0.5rem;	
 	}
 	&__wrap {
 		width: 100%;
@@ -74,7 +76,7 @@
 			& p {
 				position: absolute;
 				font-size: 2em;
-				font-weight: 100;
+				font-weight: 200;
 				font-style: italic;
 				top: 0;
 				bottom: 0;

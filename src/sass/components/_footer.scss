@@ -5,9 +5,11 @@
 	position: relative;
 	height: 656px;
 	color: #ffffff70;
+
 	&__container {
 		height: 100%
 	}
+
 	&__wrap {
 		z-index: 50;
 		width: 100%;
@@ -15,6 +17,7 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+
 		@media (max-width: 1038px) {
 			flex-direction: column;
 		}
@@ -23,23 +26,26 @@
 	&__left {
 		width: 50%;
 
-		
+
 		@media (max-width: 1038px) {
 			width: 100%;
 		}
 	}
+
 	&__right {
 		height: 600px;
 		background-color: rgb(28, 28, 28);
 		margin: 26px 0;
 		width: 50%;
 		outline: 2px dashed #ffffff70;
-		
+
 		&__wrap {
 			padding: 3em 6rem;
+
 			@media (max-width: 600px) {
 				padding: 2em 2rem;
 			}
+
 			& h1 {
 				font-size: 3rem;
 				font-weight: 200;
@@ -57,23 +63,27 @@
 				bottom: 0;
 				padding: 0;
 				margin-top: 4rem;
+
 				& li {
 					margin-bottom: 1rem;
 					display: flex;
 					justify-content: space-between;
 					align-items: center;
-					a {
+
+					& a {
 						font-style: italic;
+
 						&:hover {
 							cursor: pointer;
 							text-decoration: 1px underline dashed;
 
-}
+						}
 					}
 				}
 			}
-			
+
 		}
+
 		@media (max-width: 1038px) {
 			width: 100%;
 		}
