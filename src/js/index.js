@@ -39,7 +39,7 @@ function onEntry(entry) {
     }
   });
 }
-let options = { threshold: [0] };
+let options = { threshold: [0], rootMargin: '210px', };
 let observer = new IntersectionObserver(onEntry, options);
 let elements = document.querySelectorAll('.element-animation');
 for (let elm of elements) {
