@@ -400,11 +400,18 @@ button {
   display: flex;
   justify-content: space-between;
   list-style: none;
+  width: 60%;
+  padding: 0;
   transition: all 0.2s ease;
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
   -ms-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
+}
+.nav__links ul {
+  text-align: center;
+  width: 100%;
+  padding: 0;
 }
 @media (max-width: 1021px) {
   .nav__links {
@@ -428,6 +435,9 @@ button {
   justify-content: space-between;
   align-items: center;
   transition: all 0.8s ease;
+}
+.nav__menu__wrap {
+  width: 12%;
 }
 @media (max-width: 914px) {
   .nav__menu {
@@ -602,7 +612,7 @@ button {
 .offers__img-wrap p {
   position: absolute;
   font-size: 2em;
-  font-weight: 200;
+  font-weight: 0;
   font-style: italic;
   top: 0;
   bottom: 0;
@@ -1256,7 +1266,7 @@ body {
 .footer__right__wrap ul {
   bottom: 0;
   padding: 0;
-  margin-top: 4rem;
+  margin-top: 5rem;
 }
 .footer__right__wrap ul li {
   margin-bottom: 1rem;
@@ -1275,11 +1285,4 @@ body {
   .footer__right {
     width: 100%;
   }
-}
-
-.dev {
-  margin-top: 8em;
-  font-weight: 200;
-  font-style: italic;
-  color: rgba(255, 255, 255, 0.2509803922);
 }/*# sourceMappingURL=index.css.map */
