@@ -2,6 +2,7 @@
 let popup = document.querySelector('.popup-nav');
 let openPopupButton = document.getElementById('popup-nav_open');
 let closePopupButton = document.getElementById('popup-nav_close');
+let darknes = document.getElementById('darkness');
 
 // Offers
 let offer = document.getElementById('offers-img');
@@ -45,3 +46,6 @@ for (let elm of elements) {
   observer.observe(elm);
 }
 
+document.addEventListener("DOMContentLoaded", () => {
+  darkness.classList.add('darkness_none')
+})

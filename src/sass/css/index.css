@@ -383,6 +383,26 @@ button {
   z-index: -20;
 }
 
+.darkness {
+  position: fixed;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  z-index: 10000;
+  transition: all 5s ease;
+  -webkit-transition: all 5s ease;
+  -moz-transition: all 5s ease;
+  -ms-transition: all 5s ease;
+  -o-transition: all 5s ease;
+}
+
+.darkness_none {
+  opacity: 0;
+}
+
 .nav {
   position: fixed;
   top: 0;
