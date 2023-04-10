@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -321,7 +322,8 @@ body {
   }
 }
 
-h1, h2,
+h1,
+h2,
 p,
 a,
 button {
@@ -369,6 +371,27 @@ button {
   -webkit-box-shadow: 0px 0px 45px 0px rgba(78, 85, 62, 0.4);
   -moz-box-shadow: 0px 0px 45px 0px rgba(78, 85, 62, 0.4);
   box-shadow: 0px 0px 45px 0px rgba(78, 85, 62, 0.4);
+}
+
+#myVideo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  z-index: -20;
+  left: auto;
+}
+
+.element-animation {
+  /* Скроем элемент в начальном состоянии */
+  opacity: 0;
+  transform: translateY(100%);
+}
+
+.element-animation.element-show {
+  opacity: 1;
+  transition: all 1s;
+  transform: translateY(0%);
 }
 
 .nav {
@@ -475,7 +498,6 @@ button {
 
 .header {
   height: 100vh;
-  background: url("../../assets/img/back.jpg") no-repeat center center;
   background-size: cover;
 }
 .header__wrap {
@@ -525,9 +547,14 @@ button {
   width: 100%;
   text-align: center;
   padding-top: 2rem;
-  padding-bottom: 0.5rem;
-  font-size: 2em;
+  padding-bottom: 1rem;
+  font-size: 3em;
   font-weight: 200;
+}
+.offers {
+  text-align: center;
+  color: grey;
+  font-style: italic;
 }
 .offers__wrap {
   width: 100%;
@@ -736,7 +763,7 @@ button {
   }
 }
 .greet__left h1 {
-  font-size: 2em;
+  font-size: 3em;
   font-weight: 100;
   margin-top: 2rem;
 }
@@ -1067,6 +1094,7 @@ body {
 }
 
 .examples {
+  background-color: #f6f1e7;
   text-align: center;
   padding-bottom: 3rem;
 }
@@ -1076,7 +1104,7 @@ body {
   color: #333333;
   font-weight: 200;
   width: 100%;
-  margin-top: 2rem;
+  padding-top: 2rem;
   margin-bottom: 1rem;
 }
 .examples__title2 {
@@ -1093,8 +1121,8 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 2rem;
-  grid-row-gap: 2rem;
+  grid-column-gap: 4rem;
+  grid-row-gap: 4rem;
 }
 @media (max-width: 1038px) {
   .examples__wrap {
@@ -1112,14 +1140,33 @@ body {
 }
 .examples__wrap img {
   width: 100%;
-  border-radius: 10px 0 10px 0;
-  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
-  -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
-  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
-  -webkit-border-radius: 10px 0 10px 0;
-  -moz-border-radius: 10px 0 10px 0;
-  -ms-border-radius: 10px 0 10px 0;
-  -o-border-radius: 10px 0 10px 0;
+  outline: 5px solid white;
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.5);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.5);
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.5);
+  -webkit-border-radius: 0px 0 0px 0;
+  -moz-border-radius: 0px 0 0px 0;
+  -ms-border-radius: 0px 0 0px 0;
+  -o-border-radius: 0px 0 0px 0;
+}
+
+.rotate_left {
+  transform: rotate(1deg);
+  -webkit-transform: rotate(1deg);
+  -moz-transform: rotate(1deg);
+  -ms-transform: rotate(1deg);
+  -o-transform: rotate(1deg);
+  z-index: 30;
+  margin-top: 20px;
+}
+
+.rotate_right {
+  transform: rotate(-1deg);
+  -webkit-transform: rotate(-1deg);
+  -moz-transform: rotate(-1deg);
+  -ms-transform: rotate(-1deg);
+  -o-transform: rotate(-1deg);
+  z-index: 31;
 }
 
 .reviews {

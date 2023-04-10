@@ -13,6 +13,9 @@
 </head>
 
 <body>
+	<video autoplay muted loop id="myVideo">
+		<source src="./src/assets/video/IMG_5085-_1_ (online-video-cutter.com).mp4" type="video/mp4">
+	</video>
 	<!-- Popup navigation -->
 	<nav class="popup-nav">
 		<div class="popup-nav__wrap">
@@ -23,16 +26,16 @@
 						<a href="#offers-scroll">- Услуги</a>
 					</li>
 					<li>
-						<a href="#studio">- Студия</a>
+						<a href="#studio-scroll">- Студия</a>
 					</li>
 					<li>
-						<a href="#price">- Прайс-лист</a>
+						<a href="#examples-scroll">- Примры работ</a>
 					</li>
 					<li>
 						<a href="">- Бьюти-школа</a>
 					</li>
 					<li>
-						<a href="#contacts">- Контакты</a>
+						<a href="#contacts-scroll">- Контакты</a>
 					</li>
 				</ul>
 			</span>
@@ -52,16 +55,16 @@
 					<a href="#offers-scroll">Услуги</a>
 				</li>
 				<li>
-					<a href="#studio">Студия</a>
+					<a href="#studio-scroll">Студия</a>
 				</li>
 				<li>
-					<a href="#price">Прайс-лист</a>
+					<a href="#examples-scroll">Примры работ</a>
 				</li>
 				<li>
 					<a href="">Бьюти-школа</a>
 				</li>
 				<li>
-					<a href="#contacts">Контакты</a>
+					<a href="#contacts-scroll">Контакты</a>
 				</li>
 			</ul>
 		</ul>
@@ -82,9 +85,10 @@
 	<!-- Offers -->
 	<section id="offers-scroll" class="offers">
 		<div class="container">
-			<div class="offers__head">Наши услуги</div>
+			<div class="offers__head element-animation">Наши услуги</div>
+			<div class="offers__text element-animation">"Мы можем много и немножко больше!"</div>
 			<div class="offers__wrap">
-				<a href="https://dikidi.ru/#widget=114156" class="offers__item">
+				<a href="https://dikidi.ru/#widget=114156" class="offers__item  element-animation">
 					<div class="offers__img-wrap">
 						<img id="offers-img" class="offers__img offers__img_one"
 							src="./src/assets/img/base_course_man.jpg" alt="Записаться">
@@ -93,7 +97,7 @@
 					<h3 class="offers__title">Маникюр</h3>
 					<p>От 1000р.</p>
 				</a>
-				<a href="https://dikidi.ru/#widget=114156" class="offers__item">
+				<a href="https://dikidi.ru/#widget=114156" class="offers__item  element-animation">
 					<div class="offers__img-wrap">
 						<img id="offers-img" class="offers__img offers__img_two"
 							src="./src/assets/img/base_course_man.jpg" alt="Записаться">
@@ -102,7 +106,7 @@
 					<h3 class="offers__title">Педикюр</h3>
 					<p>От 1000р.</p>
 				</a>
-				<a href="https://dikidi.ru/#widget=114156" class="offers__item">
+				<a href="https://dikidi.ru/#widget=114156" class="offers__item  element-animation">
 					<div class="offers__img-wrap">
 						<img id="offers-img" class="offers__img offers__img_one"
 							src="./src/assets/img/base_course_man.jpg" alt="Записаться">
@@ -111,7 +115,7 @@
 					<h3 class="offers__title">Оформление бровей</h3>
 					<p>От 1000р.</p>
 				</a>
-				<a href="https://dikidi.ru/#widget=114156" class="offers__item">
+				<a href="https://dikidi.ru/#widget=114156" class="offers__item  element-animation">
 					<div class="offers__img-wrap">
 						<img id="offers-img" class="offers__img offers__img_two"
 							src="./src/assets/img/base_course_man.jpg" alt="Записаться">
@@ -124,7 +128,7 @@
 		</div>
 	</section>
 	<!-- Greet -->
-	<section class="greet">
+	<section id="studio-scroll" class="greet">
 		<div class="greet__dark"></div>
 		<div class="container">
 			<div class="greet__wrap">
@@ -137,14 +141,14 @@
 		</div>
 	</section>
 	<!-- School -->
-	<section class="school">
+	<section id="school-scroll" class="school">
 		<div class="container">
 			<div class="school__wrap">
-				<div class="school__left">
-					<div class="school__left__img school__left__img1">
+				<div class="school__left  element-animation">
+					<div class="school__left__img school__left__img1 element-animation">
 
 					</div>
-					<div class="school__left__img school__left__img2">
+					<div class="school__left__img school__left__img2  element-animation">
 
 					</div>
 					<!-- <div class="school__left__img school__left__img3">
@@ -167,19 +171,19 @@
 		</div>
 	</section>
 	<!-- Examples -->
-	<section class="examples">
+	<section id="examples-scroll" class="examples">
 		<div class="container">
 			<h1 class="examples__title">Примеры работ</h1>
 			<h2 class="examples__title2">"Мы сделали много и не думаем останавливаться"</h2>
 			<div class="examples__wrap">
-				<img src="./src/assets/img/example.png" alt="">
-				<img src="./src/assets/img/example.png" alt="">
-				<img src="./src/assets/img/example.png" alt="">
-				<img src="./src/assets/img/example.png" alt="">
-				<img src="./src/assets/img/example.png" alt="">
-				<img src="./src/assets/img/example.png" alt="">
-				<img src="./src/assets/img/example.png" alt="">
-				<img src="./src/assets/img/example.png" alt="">
+				<img class="rotate_left  element-animation" src="./src/assets/img/main/1.png" alt="">
+				<img class="rotate_right" src="./src/assets/img/main/4.png" alt="">
+				<img class="rotate_left element-animation" src="./src/assets/img/main/3.png" alt="">
+				<img class="rotate_right" src="./src/assets/img/main/6.jpeg" alt="">
+				<img class="rotate_right element-animation" src="./src/assets/img/main/7.jpeg" alt="">
+				<img class="rotate_left" src="./src/assets/img/main/2.png" alt="">
+				<img class="rotate_right element-animation" src="./src/assets/img/main/8.jpeg" alt="">
+				<img class="rotate_left" src="./src/assets/img/main/5.png" alt="">
 			</div>
 		</div>
 	</section>
@@ -189,7 +193,7 @@
 			<h1 class="reviews__title">Отзывы клиентов</h1>
 			<h2 class="reviews__title2">"Наши клиенты всегда довольны нашими услугами"</h2>
 			<div class="reviews__wrap">
-				<div class="slider-container">
+				<div class="slider-container  element-animation">
 					<a class="arrow1" id="leftArrow" href="#">
 						<img class="arrow" src="./src/assets/img/arrow.png" alt="">
 					</a>
@@ -223,7 +227,7 @@
 			</div>
 		</div>
 	</section>
-	<footer class="footer">
+	<footer id="contacts-scroll" class="footer">
 		<div class="footer__dark"></div>
 		<div class="container">
 			<div class="footer__wrap">

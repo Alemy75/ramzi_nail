@@ -8,11 +8,15 @@
 		width: 100%;
 		text-align: center;
 		padding-top: 2rem;
-		padding-bottom: 0.5rem;
-		font-size: 2em;
+		padding-bottom: 1rem;
+		font-size: 3em;
 		font-weight: 200;
 	}
-
+	& {
+		text-align: center;
+		color: grey;
+		font-style: italic;
+	}
 	&__wrap {
 		width: 100%;
 		display: flex;
