@@ -48,13 +48,30 @@
 		font-size: 1rem;
 
 		& p,
+		h3,
+		h4,
 		ul,
 		li {
 			display: block;
 			margin-bottom: 1rem;
 			text-align: justify;
 		}
-
+		h4 {
+			all: unset;
+			display: block;
+			font-size: 1.2rem;
+			margin-bottom: 1rem;
+			font-weight: 400;	
+			font-style: italic;
+		}
+		h3 {
+			all: unset;
+			display: block;
+			font-size: 1rem;
+			margin-bottom: 1rem;
+			font-weight: 200;
+			text-decoration: underline 1px dashed;	
+		}
 		& ul {
 			padding: 0;
 			font-style: italic;
