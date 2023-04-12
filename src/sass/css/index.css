@@ -1673,7 +1673,7 @@ body {
   font-size: 1.5rem;
 }
 .courses__item__info div .old {
-  text-decoration: 1px line-through;
+  text-decoration: line-throughg;
   opacity: 0.8;
 }
 .courses__item__info span {
@@ -1738,7 +1738,8 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  margin: 100px auto;
+  margin: auto;
+  margin-top: 100px;
   overflow: scroll;
   scrollbar-width: thin;
 }
@@ -1810,15 +1811,53 @@ body {
   margin-bottom: 1rem;
   border: 1px dashed white;
 }
-.popup__info__desc .buy .enroll {
+.popup__info__desc .enroll1 {
   display: block;
   width: 100%;
   text-align: center;
   margin-bottom: 1rem;
   background-color: rgb(179, 209, 182);
+  padding: 20px 0;
+  transition: all 0.1s ease;
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -ms-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
 }
-.popup__info__desc .buy .enroll:hover {
+.popup__info__desc .enroll1:hover {
+  cursor: pointer;
   background-color: #333333;
+  color: rgb(179, 209, 182);
+  border-color: rgb(179, 209, 182);
+}
+@media (max-width: 900px) {
+  .popup__info__desc .enroll1 {
+    display: none;
+  }
+}
+.popup__info__desc .enroll2 {
+  display: none;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1rem;
+  background-color: rgb(179, 209, 182);
+  padding: 20px 0;
+  transition: all 0.1s ease;
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -ms-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+}
+.popup__info__desc .enroll2:hover {
+  cursor: pointer;
+  background-color: #333333;
+  color: rgb(179, 209, 182);
+  border-color: rgb(179, 209, 182);
+}
+@media (max-width: 900px) {
+  .popup__info__desc .enroll2 {
+    display: block;
+  }
 }
 .popup__info__desc .text {
   width: 48%;

@@ -1,5 +1,8 @@
 @import '../variables';
 
+
+
+
 .popup {
 	&_dark {
 		position: fixed;
@@ -24,9 +27,10 @@
 		bottom: 0;
 		left: 0;
 		right: 0;
-		margin: 100px auto;
+		margin: auto;
+		margin-top: 100px;
 		overflow: scroll;
-		
+
 		scrollbar-width: thin;
 	}
 
@@ -41,7 +45,7 @@
 	&__wrap::-webkit-scrollbar-thumb {
 		background-color: $green;
 	}
-	
+
 
 
 	&__info {
@@ -56,22 +60,25 @@
 			margin-bottom: 1rem;
 			text-align: justify;
 		}
+
 		h4 {
 			all: unset;
 			display: block;
 			font-size: 1.2rem;
 			margin-bottom: 1rem;
-			font-weight: 400;	
+			font-weight: 400;
 			font-style: italic;
 		}
+
 		h3 {
 			all: unset;
 			display: block;
 			font-size: 1rem;
 			margin-bottom: 1rem;
 			font-weight: 200;
-			text-decoration: underline 1px dashed;	
+			text-decoration: underline 1px dashed;
 		}
+
 		& ul {
 			padding: 0;
 			font-style: italic;
@@ -81,40 +88,86 @@
 		margin: 2rem;
 		z-index: 4000;
 		color: $dark;
+
 		@media (max-width: 900px) {
 			margin: 1rem;
 		}
+
 		&__desc {
 			height: 100%;
 			display: flex;
 			justify-content: space-between;
+
 			@media (max-width: 900px) {
 				flex-direction: column;
 			}
+
 			& .buy {
 				max-width: 400px;
 				margin: 0 auto;
+
 				img {
 					width: 100%;
 					margin-bottom: 1rem;
 					border: 1px dashed white;
 				}
 
-				& .enroll {
-					display: block;
-					width: 100%;
-					text-align: center;
-					margin-bottom: 1rem;
-					background-color: $green;
 
-					&:hover {
-						background-color: $dark;
-					}
+			}
+
+			& .enroll1 {
+				display: block;
+				width: 100%;
+				text-align: center;
+				margin-bottom: 1rem;
+				background-color: $green;
+				padding: 20px 0;
+
+				&:hover {
+					cursor: pointer;
+					background-color: $dark;
+					color: $green;
+					border-color: $green;
+				}
+
+				transition: all 0.1s ease;
+				-webkit-transition: all 0.1s ease;
+				-moz-transition: all 0.1s ease;
+				-ms-transition: all 0.1s ease;
+				-o-transition: all 0.1s ease;
+				@media (max-width: 900px) {
+					display: none;
+				}
+			}
+
+			& .enroll2 {
+				display: none;
+				width: 100%;
+				text-align: center;
+				margin-bottom: 1rem;
+				background-color: $green;
+				padding: 20px 0;
+
+				&:hover {
+					cursor: pointer;
+					background-color: $dark;
+					color: $green;
+					border-color: $green;
+				}
+
+				transition: all 0.1s ease;
+				-webkit-transition: all 0.1s ease;
+				-moz-transition: all 0.1s ease;
+				-ms-transition: all 0.1s ease;
+				-o-transition: all 0.1s ease;
+				@media (max-width: 900px) {
+					display: block;
 				}
 			}
 
 			& .text {
 				width: 48%;
+
 				@media (max-width: 900px) {
 					width: 100%;
 				}
