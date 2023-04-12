@@ -1333,7 +1333,7 @@ body {
 }
 
 .about {
-  background-color: rgb(179, 209, 182);
+  background-color: rgb(204, 214, 204);
   min-height: 20vh;
 }
 .about__wrap {
@@ -1345,7 +1345,7 @@ body {
 .about__wrap__left {
   border-right: 1px dashed #333333;
   border-left: 1px dashed #333333;
-  background-color: rgb(179, 209, 182);
+  background-color: rgb(204, 214, 204);
   min-height: 20vh;
   width: 100%;
   position: relative;
@@ -1362,9 +1362,6 @@ body {
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
-}
-.about__wrap__left__self:hover {
-  height: 92%;
 }
 @media (max-width: 1450px) {
   .about__wrap__left__self {

@@ -1,7 +1,7 @@
 @import '../variables';
 
 .about {
-	background-color: $green;
+	background-color: rgb(204, 214, 204);
 	min-height: 20vh;
 
 	&__wrap {
@@ -13,7 +13,7 @@
 		&__left {
 			border-right: 1px dashed $dark;
 			border-left: 1px dashed $dark;
-			background-color: $green;
+			background-color: rgb(204, 214, 204);
 			min-height: 20vh;
 			width: 100%;
 			position: relative;
@@ -30,9 +30,6 @@
 				-moz-transition: all 0.3s ease;
 				-ms-transition: all 0.3s ease;
 				-o-transition: all 0.3s ease;
-				&:hover {
-					height: 92%;
-				}
 				@media (max-width: 1450px) {
 					opacity: 0.2;
 				}
