@@ -30,7 +30,9 @@
 		margin: auto;
 		margin-top: 100px;
 		overflow: scroll;
-
+		@media (max-width: 900px) {
+			margin-top: 0
+		}
 		scrollbar-width: thin;
 	}
 

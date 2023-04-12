@@ -1743,6 +1743,11 @@ body {
   overflow: scroll;
   scrollbar-width: thin;
 }
+@media (max-width: 900px) {
+  .popup__wrap {
+    margin-top: 0;
+  }
+}
 .popup__wrap::-webkit-scrollbar {
   width: 10px;
 }
