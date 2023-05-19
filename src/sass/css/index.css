@@ -1782,7 +1782,6 @@ body {
 }
 .popup__info h3 {
   all: unset;
-  display: block;
   font-size: 1rem;
   margin-bottom: 1rem;
   font-weight: 200;
@@ -1903,4 +1902,82 @@ body {
 }
 .popup_active {
   display: block;
+}
+
+.mb-4 {
+  margin-bottom: 0.5em;
+}
+
+.mb-8 {
+  margin-bottom: 2em;
+}
+
+.m-top {
+  padding-top: 10rem;
+}
+
+.t-center {
+  text-align: center;
+}
+
+.linkto {
+  position: relative;
+}
+.linkto:hover {
+  text-decoration: 1px underline dashed;
+}
+
+.profile__form {
+  margin: 0 auto;
+  max-width: 400px;
+}
+.profile__form span {
+  text-align: center;
+}
+.profile__form span button {
+  text-align: center;
+}
+.profile__input {
+  all: unset;
+  width: 90%;
+  padding: 5%;
+  margin-bottom: 1rem;
+  border: 1px solid rgba(204, 204, 204, 0.3137254902);
+  text-align: left;
+}
+.profile__checks {
+  margin: 0 auto;
+  max-width: 400px;
+}
+.profile__checks article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  padding: 5%;
+  border: 1px solid rgba(204, 204, 204, 0.3137254902);
+  margin-bottom: 1rem;
+}
+.profile__checks article span div {
+  line-height: 2rem;
+}
+.profile__checks article button {
+  width: 25px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+.profile__checks article button img {
+  width: 100%;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+.profile__checks article button:hover img {
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
 }/*# sourceMappingURL=index.css.map */

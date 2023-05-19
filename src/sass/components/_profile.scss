@@ -1,0 +1,77 @@
+.m-top {
+	padding-top: 10rem;
+}
+
+.t-center {
+	text-align: center;
+}
+
+.linkto {
+	position: relative;
+	&:hover {
+		text-decoration: 1px underline dashed;
+	}
+}
+
+.profile {
+	&__form {
+		margin: 0 auto;
+		max-width: 400px;
+		
+		& span {
+			text-align: center;
+			& button {
+				text-align: center;
+			}
+		}
+	}
+
+	&__input {
+		all: unset;
+		width: 90%;
+		padding: 5%;
+		margin-bottom: 1rem;
+		border: 1px solid #cccccc50;
+		text-align: left;
+	}
+	&__checks {
+		margin: 0 auto;
+		max-width: 400px;
+		& article {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			width: 90%;
+			padding: 5%;
+			border: 1px solid #cccccc50;
+			margin-bottom: 1rem;
+			& span {
+				& div {
+					line-height: 2rem;
+				}
+			}
+			& button {
+				width: 25px;
+				opacity: 0.7;
+				cursor: pointer;
+				& img {
+					width: 100%;
+					transition: all 0.5s ease;
+					-webkit-transition: all 0.5s ease;
+					-moz-transition: all 0.5s ease;
+					-ms-transition: all 0.5s ease;
+					-o-transition: all 0.5s ease;
+}
+				&:hover {
+					& img {
+						transform: rotate(90deg);
+						-webkit-transform: rotate(90deg);
+						-moz-transform: rotate(90deg);
+						-ms-transform: rotate(90deg);
+						-o-transform: rotate(90deg);
+}
+				}
+			}
+		}
+	}
+}

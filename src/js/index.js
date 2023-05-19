@@ -91,37 +91,37 @@ courseOne.addEventListener('click', () => {
 })
 
 courseTwo.addEventListener('click', () => {
-  popupTwo.classList.add('popup_active')
+  popupOne.classList.add('popup_active')
   popupDark.classList.add('popup_active')
 })
 
 courseThree.addEventListener('click', () => {
-  popupThree.classList.add('popup_active')
+  popupOne.classList.add('popup_active')
   popupDark.classList.add('popup_active')
 })
 
 courseFour.addEventListener('click', () => {
-  popupFour.classList.add('popup_active')
+  popupOne.classList.add('popup_active')
   popupDark.classList.add('popup_active')
 })
 
 courseFive.addEventListener('click', () => {
-  popupFive.classList.add('popup_active')
+  popupOne.classList.add('popup_active')
   popupDark.classList.add('popup_active')
 })
 
 courseSix.addEventListener('click', () => {
-  popupSix.classList.add('popup_active')
+  popupOne.classList.add('popup_active')
   popupDark.classList.add('popup_active')
 })
 
 courseSeven.addEventListener('click', () => {
-  popupSeven.classList.add('popup_active')
+  popupOne.classList.add('popup_active')
   popupDark.classList.add('popup_active')
 })
 
 courseEight.addEventListener('click', () => {
-  popupEight.classList.add('popup_active')
+  popupOne.classList.add('popup_active')
   popupDark.classList.add('popup_active')
 })
 // 
@@ -147,35 +147,35 @@ closePopups1.addEventListener('click', () => {
 
 closePopups2.addEventListener('click', () => {
   popupDark.classList.remove('popup_active')
-  popupTwo.classList.remove('popup_active')
+  popupOne.classList.remove('popup_active')
 })
 
 closePopups3.addEventListener('click', () => {
   popupDark.classList.remove('popup_active')
-  popupThree.classList.remove('popup_active')
+  popupOne.classList.remove('popup_active')
 })
 
 closePopups4.addEventListener('click', () => {
   popupDark.classList.remove('popup_active')
-  popupFour.classList.remove('popup_active')
+  popupOne.classList.remove('popup_active')
 })
 
 closePopups5.addEventListener('click', () => {
   popupDark.classList.remove('popup_active')
-  popupFive.classList.remove('popup_active')
+  popupOne.classList.remove('popup_active')
 })
 
 closePopups6.addEventListener('click', () => {
   popupDark.classList.remove('popup_active')
-  popupSix.classList.remove('popup_active')
+  popupOne.classList.remove('popup_active')
 })
 
 closePopups7.addEventListener('click', () => {
   popupDark.classList.remove('popup_active')
-  popupSeven.classList.remove('popup_active')
+  popupOne.classList.remove('popup_active')
 })
 
 closePopups8.addEventListener('click', () => {
   popupDark.classList.remove('popup_active')
-  popupEight.classList.remove('popup_active')
+  popupOne.classList.remove('popup_active')
 })

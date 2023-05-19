@@ -74,7 +74,6 @@
 
 		h3 {
 			all: unset;
-			display: block;
 			font-size: 1rem;
 			margin-bottom: 1rem;
 			font-weight: 200;
@@ -215,4 +214,13 @@
 	&_active {
 		display: block;
 	}
+}
+
+
+.mb-4 {
+	margin-bottom: 0.5em;
+}
+
+.mb-8 {
+	margin-bottom: 2em;
 }
